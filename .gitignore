@@ -1,6 +1,15 @@
 # Logs
 logs
 *.log
+
+# Large binary / lock files
+bun.lockb
+package-lock.json
+*.pyc
+webapp/__pycache__/
+
+# Sensitive
+.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
